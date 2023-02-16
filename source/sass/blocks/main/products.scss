@@ -24,11 +24,17 @@
   @media (max-width: $vp-1365) {
     max-width: 370px;
     margin: 0 auto;
+    background-position: 40px 100px;
+  }
+
+  @media (max-width: 930px) {
     background-image: none;
   }
 
   @media (max-width: $vp-767) {
+    background-image: url("../img/product-background.png");
     max-width: 280px;
+    background-position: -40px 40px;
   }
 
   &:hover {

@@ -15,6 +15,7 @@
   width: 1366px;
   margin: 0 auto;
   padding: 79px 98px 86px 98px;
+  position: relative;
 
   @media (max-width: $vp-1365) {
     width: 100%;
@@ -30,9 +31,46 @@
   font-size: 32px;
   line-height: 43px;
   margin: 0 0 52px 0;
+  text-align: center;
+
+  @media (max-width: $vp-767) {
+    margin: 0 0 25px 0;
+  }
+}
+
+.catalog__link {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #444240;
+  cursor: pointer;
+  padding: 10px 0;
+  border-bottom: 1px solid #c4c0b6;
+  position: absolute;
+  top: 110px;
+  right: 100px;
+  user-select: none;
 
   @media (max-width: $vp-1365) {
-    text-align: center;
+    right: 60px;
+  }
+
+  @media (max-width: $vp-767) {
+    position: static;
+    display: block;
+    width: 104px;
+    margin: 0 20px 40px auto;
+  }
+
+  &:hover {
+    color: #76736d;
+    border-bottom: 1px dotted #c4c0b6;
+  }
+
+  &:active {
+    color: #76736d;
+    border-bottom: 1px solid #76736d;
   }
 }
 
