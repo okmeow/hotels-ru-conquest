@@ -9,6 +9,16 @@
 }
 
 @font-face {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url("../fonts/Prata-Regular.woff2") format("woff2"),
+    url("../fonts/Prata-Regular.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;

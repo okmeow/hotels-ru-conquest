@@ -15,16 +15,22 @@
   width: 1366px;
   margin: 0 auto;
   padding: 236px 120px 236px 120px;
+  background-color: #fdfdfb;
+  background-image: url("../img/promo-background.png");
+  background-repeat: no-repeat;
+  background-position: 80% 0;
 }
 
 .promo__title {
   font-size: 45px;
   line-height: 60px;
+  margin: 0 0 16px 0;
 }
 
 .promo__subtitle {
   font-size: 30px;
   line-height: 40px;
+  margin: 0 0 39px 0;
 }
 
 .promo__description {
@@ -32,14 +38,20 @@
   font-weight: 300;
   font-size: 14px;
   line-height: 21px;
+  margin: 0 0 64px 0;
 }
 
 .promo__link {
-  display: block;
+  font-family: "Roboto", "Arial", sans-serif;
+  display: inline-block;
+  vertical-align: baseline;
   font-weight: 500;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #ffffff;
+  padding: 26px 38px 27px 38px;
+  background-color: #444240;
+  user-select: none;
 }

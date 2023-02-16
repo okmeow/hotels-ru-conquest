@@ -1,0 +1,28 @@
+.catalog {
+  width: 100vw;
+  min-width: 1366px;
+
+  @media (max-width: $vp-1365) {
+    min-width: 768px;
+  }
+
+  @media (max-width: $vp-767) {
+    min-width: 320px;
+  }
+}
+
+.catalog__wrapper {
+  width: 1366px;
+  margin: 0 auto;
+  padding: 79px 98px 86px 98px;
+}
+
+.catalog__title {
+  font-size: 32px;
+  line-height: 43px;
+  margin: 0 0 52px 0;
+}
+
+.catalog__list {
+  list-style-type: none;
+}

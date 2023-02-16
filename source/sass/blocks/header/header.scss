@@ -18,6 +18,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  background-color: #fdfdfb;
 }
 
 .header__navigation-list {
@@ -30,6 +31,11 @@
 
 .header__navigation-item:not(:last-child) {
   margin: 0 65px 0 0;
+}
+
+.header__navigation-link {
+  color: #555248;
+  font-family: "Roboto", "Arial", sans-serif;
 }
 
 .header__menu-list {
