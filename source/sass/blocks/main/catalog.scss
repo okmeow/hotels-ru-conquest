@@ -20,6 +20,10 @@
     width: 100%;
     padding: 79px 60px 86px 60px;
   }
+
+  @media (max-width: $vp-767) {
+    padding: 70px 20px 80px 20px;
+  }
 }
 
 .catalog__title {

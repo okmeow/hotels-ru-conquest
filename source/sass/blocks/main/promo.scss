@@ -29,18 +29,31 @@
   @media (max-width: 980px) {
     background-position: 150% 0;
   }
+
+  @media (max-width: $vp-767) {
+    padding: 36px 20px 36px 20px;
+    background-image: none;
+  }
 }
 
 .promo__title {
   font-size: 45px;
   line-height: 60px;
   margin: 0 0 16px 0;
+
+  @media (max-width: $vp-767) {
+    text-align: center;
+  }
 }
 
 .promo__subtitle {
   font-size: 30px;
   line-height: 40px;
   margin: 0 0 39px 0;
+
+  @media (max-width: $vp-767) {
+    text-align: center;
+  }
 }
 
 .promo__description {
@@ -52,6 +65,11 @@
 
   @media (max-width: $vp-1365) {
     width: 50vw;
+  }
+
+  @media (max-width: $vp-767) {
+    width: 100%;
+    text-align: center;
   }
 }
 
@@ -68,6 +86,12 @@
   padding: 26px 38px 27px 38px;
   background-color: #444240;
   user-select: none;
+
+
+  @media (max-width: $vp-767) {
+    display: block;
+    text-align: center;
+  }
 
   &:hover {
     background-color: #7d7c7b;

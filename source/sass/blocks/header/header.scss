@@ -24,6 +24,10 @@
     width: 100%;
     padding: 30px 60px 25px 60px;
   }
+
+  @media (max-width: $vp-767) {
+    padding: 30px 20px 25px 20px;
+  }
 }
 
 .header__navigation-list {
@@ -39,6 +43,10 @@
 
   @media (max-width: $vp-1365) {
     margin: 0 30px 0 0;
+  }
+
+  @media (max-width: $vp-767) {
+    margin: 0 15px 0 0;
   }
 }
 

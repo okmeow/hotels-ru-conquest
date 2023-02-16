@@ -8,6 +8,10 @@
   @media (max-width: $vp-1365) {
     grid-template-columns: 1fr 1fr;
   }
+
+  @media (max-width: $vp-767) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .products__card {
@@ -21,6 +25,10 @@
     max-width: 370px;
     margin: 0 auto;
     background-image: none;
+  }
+
+  @media (max-width: $vp-767) {
+    max-width: 280px;
   }
 
   &:hover {

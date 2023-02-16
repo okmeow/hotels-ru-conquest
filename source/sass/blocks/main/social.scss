@@ -28,6 +28,12 @@
     background-position: 90% 80px, 90% 332px;
     background-size: 242px 228px, 242px 228px;
   }
+
+  @media (max-width: $vp-767) {
+    padding: 300px 20px 50px 20px;
+    background-image: url("../img/social-1.jpg");
+    background-position: calc(50vw - 121px) 20px;
+  }
 }
 
 .social__title {
@@ -37,6 +43,11 @@
 
   @media (max-width: $vp-1365) {
     width: 50%;
+  }
+
+  @media (max-width: $vp-767) {
+    width: 100%;
+    text-align: center;
   }
 }
 
@@ -50,6 +61,12 @@
   @media (max-width: $vp-1365) {
     width: 50%;
   }
+
+  @media (max-width: $vp-767) {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 60px 0;
+  }
 }
 
 .social__list {
@@ -60,6 +77,10 @@
   flex-wrap: wrap;
   max-width: 190px;
   align-items: center;
+
+  @media (max-width: $vp-767) {
+    margin: 0 0 0 calc(50vw - 70px);
+  }
 }
 
 .social__item:not(:last-child) {
