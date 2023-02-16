@@ -19,12 +19,25 @@
   background-repeat: no-repeat;
   background-position: 650px 100px, 900px 100px, 650px 332px;
   background-size: 242px 228px, 377px 460px, 242px 228px;
+
+  @media (max-width: $vp-1365) {
+    width: 100%;
+    padding: 100px 60px 200px 60px;
+    background-image: url("../img/social-1.jpg"), url("../img/social-2.jpg");
+    background-repeat: no-repeat;
+    background-position: 90% 80px, 90% 332px;
+    background-size: 242px 228px, 242px 228px;
+  }
 }
 
 .social__title {
   font-size: 32px;
   line-height: 43px;
   margin: 0 0 40px 0;
+
+  @media (max-width: $vp-1365) {
+    width: 50%;
+  }
 }
 
 .social__description {
@@ -33,6 +46,10 @@
   width: 376px;
   color: #444240;
   margin: 0 0 118px 0;
+
+  @media (max-width: $vp-1365) {
+    width: 50%;
+  }
 }
 
 .social__list {

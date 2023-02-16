@@ -15,12 +15,21 @@
   width: 1366px;
   margin: 0 auto;
   padding: 79px 98px 86px 98px;
+
+  @media (max-width: $vp-1365) {
+    width: 100%;
+    padding: 79px 60px 86px 60px;
+  }
 }
 
 .catalog__title {
   font-size: 32px;
   line-height: 43px;
   margin: 0 0 52px 0;
+
+  @media (max-width: $vp-1365) {
+    text-align: center;
+  }
 }
 
 .catalog__list {

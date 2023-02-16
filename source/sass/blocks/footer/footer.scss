@@ -19,6 +19,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
+  @media (max-width: $vp-1365) {
+    width: 100%;
+    padding: 67px 100px 67px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 60px;
+  }
 }
 
 .footer__contacts {
