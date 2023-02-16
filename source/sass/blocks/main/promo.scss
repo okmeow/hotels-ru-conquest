@@ -1,0 +1,45 @@
+.promo {
+  width: 100vw;
+  min-width: 1366px;
+
+  @media (max-width: $vp-1365) {
+    min-width: 768px;
+  }
+
+  @media (max-width: $vp-767) {
+    min-width: 320px;
+  }
+}
+
+.promo__wrapper {
+  width: 1366px;
+  margin: 0 auto;
+  padding: 236px 120px 236px 120px;
+}
+
+.promo__title {
+  font-size: 45px;
+  line-height: 60px;
+}
+
+.promo__subtitle {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.promo__description {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.promo__link {
+  display: block;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
