@@ -1,6 +1,7 @@
 .advantages {
   width: 100vw;
   min-width: 1366px;
+  background: linear-gradient(to right, #f7f5ef 40%, #fdfdfb 40%);
 
   @media (max-width: $vp-1365) {
     min-width: 768px;
@@ -17,7 +18,6 @@
   padding: 52px 220px 21px 177px;
   display: flex;
   flex-wrap: wrap;
-  background: linear-gradient(to right, #f7f5ef 40%, #fdfdfb 40%);
 }
 
 .advantages__image-wrapper {

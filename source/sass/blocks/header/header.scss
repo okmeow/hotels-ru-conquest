@@ -1,6 +1,7 @@
 .header {
   width: 100vw;
   min-width: 1366px;
+  background-color: #fdfdfb;
 
   @media (max-width: $vp-1365) {
     min-width: 768px;
@@ -18,7 +19,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #fdfdfb;
 }
 
 .header__navigation-list {

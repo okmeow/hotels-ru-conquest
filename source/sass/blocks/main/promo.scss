@@ -1,6 +1,7 @@
 .promo {
   width: 100vw;
   min-width: 1366px;
+  background-color: #fdfdfb;
 
   @media (max-width: $vp-1365) {
     min-width: 768px;
@@ -15,7 +16,6 @@
   width: 1366px;
   margin: 0 auto;
   padding: 236px 120px 236px 120px;
-  background-color: #fdfdfb;
   background-image: url("../img/promo-background.png");
   background-repeat: no-repeat;
   background-position: 80% 0;
