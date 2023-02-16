@@ -1,0 +1,27 @@
+.footer-clients__title {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 12px 0 33px 0;
+}
+
+.footer-clients__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-clients__item:not(:last-child) {
+  margin: 0 0 15px 0;
+}
+
+.footer-clients__link {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.75);
+}
