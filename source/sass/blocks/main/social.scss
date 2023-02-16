@@ -48,3 +48,15 @@
 .social__item:not(:last-child) {
   margin: 0 18px 5px 0;
 }
+
+.social__link {
+  color: #5c5c50;
+
+  &:hover {
+    color: #7d7c7b;
+  }
+
+  &:active {
+    color: #7f6042;
+  }
+}

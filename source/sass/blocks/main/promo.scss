@@ -54,4 +54,12 @@
   padding: 26px 38px 27px 38px;
   background-color: #444240;
   user-select: none;
+
+  &:hover {
+    background-color: #7d7c7b;
+  }
+
+  &:active {
+    background-color: #7f6042;
+  }
 }

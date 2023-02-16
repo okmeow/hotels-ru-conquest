@@ -50,6 +50,14 @@
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.05em;
+
+  &:hover {
+    background-color: #7d7c7b;
+  }
+
+  &:active {
+    background-color: #7f6042;
+  }
 }
 
 .advantages__counter-wrapper {
@@ -80,6 +88,20 @@
   &--next {
     &::before {
       transform: rotate(225deg);
+    }
+  }
+
+  &:hover {
+    &::before {
+      border-bottom: 0.5px solid #7d7c7b;
+      border-left: 0.5px solid #7d7c7b;
+    }
+  }
+
+  &:active {
+    &::before {
+      border-bottom: 0.5px solid #7f6042;
+      border-left: 0.5px solid #7f6042;
     }
   }
 }

@@ -36,6 +36,14 @@
 .header__navigation-link {
   color: #555248;
   font-family: "Roboto", "Arial", sans-serif;
+
+  &:hover {
+    color: #7d7c7b;
+  }
+
+  &:active {
+    color: #7f6042;
+  }
 }
 
 .header__menu-list {
@@ -48,4 +56,16 @@
 
 .header__menu-item:not(:last-child) {
   margin: 0 23px 0 0;
+}
+
+.header__menu-link {
+  color: #1b1a17;
+
+  &:hover {
+    color: #7d7c7b;
+  }
+
+  &:active {
+    color: #7f6042;
+  }
 }
