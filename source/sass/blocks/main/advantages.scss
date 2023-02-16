@@ -47,6 +47,10 @@
     position: absolute;
     top: -149px;
     right: -10%;
+
+    @media (max-width: $vp-1365) {
+      display: none;
+    }
   }
 
   &::after {
@@ -60,6 +64,10 @@
     position: absolute;
     top: -49px;
     right: -35%;
+
+    @media (max-width: $vp-1365) {
+      display: none;
+    }
   }
 
   @media (max-width: $vp-1365) {
