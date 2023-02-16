@@ -20,6 +20,7 @@
   background-image: url("../img/product-background.png");
   background-repeat: no-repeat;
   background-position: 40px 100px;
+  position: relative;
 
   @media (max-width: $vp-1365) {
     max-width: 370px;
@@ -84,7 +85,22 @@
   font-size: 16px;
   line-height: 21px;
   border: none;
-  padding: 3px 5px 3px 20px;
+  padding: 3px 5px 3px 50px;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 1px;
+    background-color: #8b8371;
+    position: absolute;
+    top: 419px;
+    left: 16px;
+
+    @media (max-width: 900px) {
+      display: none;
+    }
+  }
 
   &:hover {
     color: #7d7c7b;

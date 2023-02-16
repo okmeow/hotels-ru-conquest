@@ -71,6 +71,10 @@
   flex-wrap: wrap;
 }
 
+.header__menu-item {
+  position: relative;
+}
+
 .header__menu-item:not(:last-child) {
   margin: 0 23px 0 0;
 }
@@ -84,5 +88,26 @@
 
   &:active {
     color: #7f6042;
+  }
+}
+
+.header__menu-link--favorite {
+  &::after {
+    content: "1";
+    position: absolute;
+    top: -7px;
+    right: -2px;
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #e6c8b4;
+    position: absolute;
+    top: -4px;
+    right: -6px;
   }
 }

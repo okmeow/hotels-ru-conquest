@@ -83,15 +83,19 @@
   }
 }
 
+.social__item {
+  padding: 5px;
+}
+
 .social__item:not(:last-child) {
-  margin: 0 18px 10px 0;
+  margin: 0 8px 0 0;
 
   @media (max-width: $vp-1365) {
-    margin: 0 50px 5px 0;
+    margin: 0 40px 0 0;
   }
 
   @media (max-width: $vp-767) {
-    margin: 0 40px 5px 0;
+    margin: 0 30px 0 0;
   }
 }
 

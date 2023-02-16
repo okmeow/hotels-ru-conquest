@@ -18,6 +18,8 @@
   padding: 52px 220px 21px 177px;
   display: flex;
   flex-wrap: wrap;
+  position: relative;
+  overflow: hidden;
 
   @media (max-width: $vp-1365) {
     width: 100%;
@@ -33,6 +35,32 @@
 
 .advantages__image-wrapper {
   margin: 0 60px 0 0;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 365px;
+    height: 365px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #d4b098;
+    position: absolute;
+    top: -149px;
+    right: -10%;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    width: 745px;
+    height: 745px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #d4b098;
+    position: absolute;
+    top: -49px;
+    right: -35%;
+  }
 
   @media (max-width: $vp-1365) {
     margin: 0 0 30px 0;
