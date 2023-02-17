@@ -18,6 +18,7 @@ html {
   line-height: 16px;
   font-family: $ff-placeholder;
   color: #1b1a17;
+  scroll-behavior: smooth;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
