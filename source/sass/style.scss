@@ -9,17 +9,13 @@
 // ---------------------------------
 
 @import "variables";
-@import "mixins";
 @import "global/fonts";
 @import "global/reboot";
 @import "global/utils";
-@import "global/container";
 
 // Blocks
 // ---------------------------------
 
-@import "blocks/btn";
-@import "blocks/modal";
 @import "blocks/header/header.scss";
 @import "blocks/main/promo.scss";
 @import "blocks/main/advantages.scss";
