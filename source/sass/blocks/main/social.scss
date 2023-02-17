@@ -20,6 +20,15 @@
   background-position: 650px 100px, 900px 100px, 650px 332px;
   background-size: 242px 228px, 377px 460px, 242px 228px;
 
+  @media (min-width: 1366px) {
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/social-1@2x.jpg"), url("../img/social-3@2x.jpg"), url("../img/social-2@2x.jpg");
+      background-repeat: no-repeat;
+      background-position: 650px 100px, 900px 100px, 650px 332px;
+      background-size: 242px 228px, 377px 460px, 242px 228px;
+    }
+  }
+
   @media (max-width: $vp-1365) {
     width: 100%;
     padding: 100px 60px 200px 60px;
@@ -27,12 +36,24 @@
     background-repeat: no-repeat;
     background-position: 90% 80px, 90% 332px;
     background-size: 242px 228px, 242px 228px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/social-1@2x.jpg"), url("../img/social-2@2x.jpg");
+      background-repeat: no-repeat;
+      background-position: 90% 80px, 90% 332px;
+      background-size: 242px 228px, 242px 228px;
+    }
   }
 
   @media (max-width: $vp-767) {
     padding: 300px 20px 50px 20px;
     background-image: url("../img/social-1.jpg");
     background-position: calc(50vw - 121px) 20px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/social-1@2x.jpg");
+      background-position: calc(50vw - 121px) 20px;
+    }
   }
 }
 
