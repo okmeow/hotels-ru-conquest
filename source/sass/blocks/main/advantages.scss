@@ -15,7 +15,7 @@
 .advantages__wrapper {
   width: 1366px;
   margin: 0 auto;
-  padding: 52px 220px 21px 177px;
+  padding: 35px 220px 21px 177px;
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -34,7 +34,7 @@
 }
 
 .advantages__image-wrapper {
-  margin: 0 60px 0 0;
+  margin: 0 70px 0 0;
 
   &::before {
     content: "";
@@ -86,9 +86,13 @@
 }
 
 .advantages__title {
-  margin: 0 0 38px 0;
+  margin: 87px 0 25px 0;
   font-size: 32px;
   line-height: 43px;
+
+  @media (max-width: $vp-1365) {
+    margin: 0 0 38px 0;
+  }
 
   @media (max-width: $vp-767) {
     text-align: center;
@@ -96,7 +100,7 @@
 }
 
 .advantages__description {
-  margin: 0 0 45px 0;
+  margin: 0 0 40px 0;
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
   line-height: 24px;

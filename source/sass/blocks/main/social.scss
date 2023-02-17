@@ -14,7 +14,7 @@
 .social__wrapper {
   width: 1366px;
   margin: 0 auto;
-  padding: 221px 98px 90px 97px;
+  padding: 210px 98px 140px 97px;
   background-image: url("../img/social-1.jpg"), url("../img/social-3.jpg"), url("../img/social-2.jpg");
   background-repeat: no-repeat;
   background-position: 650px 100px, 900px 100px, 650px 332px;
@@ -31,7 +31,7 @@
 
   @media (max-width: $vp-1365) {
     width: 100%;
-    padding: 100px 60px 200px 60px;
+    padding: 100px 60px 240px 60px;
     background-image: url("../img/social-1.jpg"), url("../img/social-2.jpg");
     background-repeat: no-repeat;
     background-position: 90% 80px, 90% 332px;
@@ -60,7 +60,7 @@
 .social__title {
   font-size: 32px;
   line-height: 43px;
-  margin: 0 0 40px 0;
+  margin: 0 0 25px 0;
 
   @media (max-width: $vp-1365) {
     width: 50%;
@@ -77,7 +77,7 @@
   line-height: 27px;
   width: 376px;
   color: #444240;
-  margin: 0 0 118px 0;
+  margin: 0 0 110px 0;
 
   @media (max-width: $vp-1365) {
     width: 50%;
